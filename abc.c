@@ -1,10 +1,15 @@
+int sum(int a, int b)
+{
+	return (a+b);
+}
+
 int main()
 {
 	int a;
 	int b;
 	int c;
 	a = 12;
-	b = a + a;
-	c = a + b;
+	c = sum(a, b);
+
 	return (c);
 }
